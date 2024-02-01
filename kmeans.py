@@ -50,4 +50,4 @@ classifier = KMeans(k=5)
 clusterLabels = classifier.fitAndPredict(scaledData)
 classifier.plotClusters(scaledData)
 data['Cluster'] = clusterLabels
-print(data.to_string(index=False))
+print(data.to_string(index=False,col_space=10))
