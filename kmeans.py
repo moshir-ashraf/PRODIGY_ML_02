@@ -46,7 +46,7 @@ data = pd.read_csv(os.path.join('dataset', 'Mall_Customers.csv'))
 # data['Gender'] = data['Gender'].map({'Male': 0, 'Female': 1})
 scaler = StandardScaler()
 scaledData = scaler.fit_transform(data[['Spending Score (1-100)','CustomerID']])
-classifier = KMeans(k=9)
+classifier = KMeans(k=5)
 clusterLabels = classifier.fitAndPredict(scaledData)
 classifier.plotClusters(scaledData)
 data['Cluster'] = clusterLabels
