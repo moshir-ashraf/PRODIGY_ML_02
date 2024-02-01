@@ -8,6 +8,6 @@ After multiple trials and errors it was found that the most suitable number of c
 
 #### k=1 ![k-1](1.png)
 #### k=3 ![k-3](3.png)
-#### k=5 ![k-5](5.png)
+
 #### k=7 ![k-7](7.png)
 #### k=9 ![k-9](9.png)
